@@ -1,7 +1,7 @@
-
+import dynamic from './dynamic'
 
 const components = [
-    
+    dynamic
 ]
 
 const install = function (Vue) {
@@ -15,4 +15,5 @@ if (typeof window !== 'undefined' && window.Vue){
 
 export default {
     install,
+    dynamic
 }
